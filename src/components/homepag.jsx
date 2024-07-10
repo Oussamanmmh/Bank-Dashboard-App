@@ -3,6 +3,7 @@ import { CardInvest } from "./cards/cardinvest"
 import { SmallCardRight } from "./cards/SmallCardRight"
 import { CenterSection } from "./centerSection"
 import { FirstCard } from "./leftside/firstCard"
+import { SecondCard } from "./leftside/secondCard"
 import { ThirdCard } from "./leftside/thirdCard"
 
 export const HomePage = () => {
@@ -12,6 +13,7 @@ export const HomePage = () => {
         <div className="flex justify-between">
             <div className="flex flex-col w-1/4">
            <FirstCard/>
+           <SecondCard/>
            <ThirdCard/>
            </div>
 
