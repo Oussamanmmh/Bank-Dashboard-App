@@ -2,7 +2,7 @@ export const SecondCard = () => {
     return(
 
         <>
-        <div className="flex flex-col gap-3 bg-white rounded-2xl p-4">
+        <div className="flex flex-col gap-3 bg-white rounded-2xl p-3">
             <p className="font-serif text-md text-xl font-bold" >Real estate loan</p>
             <p className="text-5xl font-bold font-serif">-$113,920.00</p>
             <p className="text-sm font-serif "> 20 payments left</p>
