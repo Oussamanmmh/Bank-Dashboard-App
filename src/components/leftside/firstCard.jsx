@@ -1,7 +1,7 @@
 export const FirstCard = () => {
     return(
         <>
-        <div className="bg-white flex flex-col gap-4 w-full p-4 h-72 rounded-2xl">
+        <div className="bg-white flex flex-col gap-3 w-full p-4 rounded-2xl">
             <div className="flex justify-between items-center">
                 <p className="text-black text-md font-bold">Current balance</p>
                 <div className="rounded-2xl bg-slate-900 py-2 px-3 font-serif text-white">

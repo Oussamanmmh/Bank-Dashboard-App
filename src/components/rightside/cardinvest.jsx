@@ -5,14 +5,14 @@ import tesla from '../../assets/tesla.png'
 export const CardInvest = () => {
     return(
         <>
-            <div className="bg-white px-10 py-5 rounded-xl ">
-                <div className='flex flex-col gap-10 justify-between items-center'>
+            <div className="bg-white px-5 py-3 rounded-xl ">
+                <div className='flex flex-col gap-7 justify-between items-center'>
                     <div className='flex gap-16 '>
                     <p className="text-black text-lg font-bold">My investments</p>
                     <a href='/all' className='text-black text-lg font-bold'> See all <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 inline-block">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-</svg>
- </a>
+                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                   </svg>
+                    </a>
                     </div>
                    
 

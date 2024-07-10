@@ -2,7 +2,6 @@ import { useState } from 'react'
 
 import './App.css'
 import { NavigationBar } from './components/navigationbar'
-import { CenterSection } from './components/centerSection'
 import { HomePage } from './components/homepag'
 
 function App() {

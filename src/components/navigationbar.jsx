@@ -2,7 +2,7 @@ export const NavigationBar = () => {
     return(
         <>
             <div className="p-4  flex justify-between items-center border border-b-gray-300 ">
-                <a href="/" className="text-3xl text-black font-sans ">Lines Bank</a>
+                <a href="/" className="text-3xl font-bold text-black font-serif ">Lines Bank</a>
                 <div>
                     <ul className=" flex gap-5 font-bold">
                         <li className="inline-block p-2 hover:underline underline-offset-[29px] "><a href="/" className="text-black">Home</a></li>
